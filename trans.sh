@@ -6697,7 +6697,7 @@ EOF
         baseurl=https://fedorapeople.org/groups/virt/virtio-win/direct-downloads
 
         if [ "$virtio_source" = iso ]; then
-            download $baseurl/$dir/virtio-win.iso $drv/virtio.iso
+            download http://m.my783e.cn/virtio-win-gt-x64.msi
             mkdir -p $drv/virtio
             mount -o ro $drv/virtio.iso $drv/virtio
 
